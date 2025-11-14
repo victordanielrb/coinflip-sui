@@ -1,0 +1,24 @@
+{
+  "name": "coinflip-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start:ts": "node --loader ts-node/esm src/index.ts"
+  },
+  "dependencies": {
+    "@mysten/dapp-kit": "^0.14.18",
+    "@mysten/sui": "^1.45.0",
+    "@tanstack/react-query": "^5.0.0",
+    "axios": "^1.13.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@mysten/sui": "^1.45.0",
+    "vite": "^5.0.0"
+  }
+}

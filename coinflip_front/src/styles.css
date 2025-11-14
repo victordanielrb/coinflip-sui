@@ -1,0 +1,18 @@
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f6f8fa; color:#0b1220; margin:0; padding:20px }
+.app { max-width:900px; margin:0 auto }
+header h1{ margin:0 }
+header p{ margin:4px 0 }
+.wallet-section{ margin-top:16px; padding:12px; background:#f0f8ff; border-radius:6px; border-left:4px solid #0969da }
+.card{ background:white; padding:16px; border-radius:8px; box-shadow:0 1px 2px rgba(11,18,32,0.06); margin-top:16px }
+label{ display:block; margin-top:8px; font-size:13px; font-weight:500 }
+input[type=number], input[type=text], select{ width:100%; padding:8px; margin-top:6px; box-sizing:border-box; border:1px solid #ddd; border-radius:4px }
+.actions{ margin-top:12px }
+button{ padding:8px 12px; margin-right:8px; cursor:pointer; background:#0969da; color:white; border:none; border-radius:4px }
+button.primary{ background:#238636; }
+button:hover{ opacity:0.9 }
+button:disabled{ background:#ccc; cursor:not-allowed }
+.logs ul{ list-style:none; padding:0; margin:0; max-height:200px; overflow-y:auto }
+.logs li{ padding:6px 0; border-bottom:1px solid #f0f0f0; font-family:monospace; font-size:13px }
+.empty{ color:#666; font-style:italic; padding:20px; text-align:center }
+footer{ margin-top:12px; color:#666; font-size:13px }
+small{ color:#666; font-size:12px; line-height:1.4; display:block; margin-top:8px }
