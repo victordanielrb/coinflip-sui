@@ -177,14 +177,6 @@ Through building this project, you'll learn:
 | `set_winner` | Determine the winner | Escrow only |
 | `pay_winner` | Distribute prize to winner | Automatic |
 
-## 🔮 Future Enhancements
-
-Potential improvements for learning:
-- Decentralized oracle integration (Chainlink VRF)
-- Multi-player tournament system
-- NFT rewards for winners
-- DAO governance for parameters
-- Leaderboard and ranking system
 
 ## 📄 License
 
